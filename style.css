@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+
+}
+.container {
+    background-image: linear-gradient(rgba(147, 204, 236, 0), rgba(15, 25, 53, 0)),url('imgs/galaxy.gif');
+    background-position: center;
+    padding: 1rem 6rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.search-container {
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.paragraph {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.mass-input {
+    width: 20rem;
+    
+}
+
+.mass-input,
+.planet-options {
+    padding: 0.7rem;
+    border-radius: 3px;
+    margin: .3rem;
+
+}
+
+.calculate-weight__btn {
+    padding: .8rem;
+    background-color: rgb(82, 43, 146);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    margin: .3rem;
+
+}
+
+.calculate-weight__btn:hover {
+    background-color: rgb(50, 21, 95);
+
+}
+
+.planet-container {
+    display: flex; 
+    justify-content: space-around;
+}
+.planet-window {
+
+    background-image: linear-gradient(rgba(147, 204, 236, 0.2), rgba(15, 25, 53, 0.4));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 4rem;
+    border-radius: 3px;
+
+}
+
+.weight-container {
+    background-image: linear-gradient(rgba(54, 74, 85, 0.5), rgba(5, 13, 37, 0.8));
+    height: 10rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    border-radius: 5px;
+
+}
+
+.weight {
+    margin-top:
+}
