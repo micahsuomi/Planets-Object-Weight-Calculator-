@@ -97,6 +97,36 @@ h1 {
 
 }
 
-.weight {
-    margin-top:
+@media screen and (max-width: 500px) {
+    .container {
+        padding: 1rem 2rem;
+    }
+
+    h1 {
+        font-size: 17px;
+    }
+
+    .search-container {
+        padding: 3rem 0;
+        flex-wrap: wrap;
+    }
+
+    .mass-input {
+        width: 7rem;
+    }
+
 }
+
+@media screen and (max-width: 320px) {
+   
+    h1 {
+        font-size: 15px;
+       
+    }
+
+    .mass-input {
+        width: 4rem;
+    }
+
+}
+
